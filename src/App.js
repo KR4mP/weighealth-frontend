@@ -6,7 +6,7 @@ import Write from "./pages/Write/Write";
 import Register from "./pages/Register/Register";
 import Login from "./pages/Login/Login";
 import Footer from "./components/Footer/Footer";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const admin = false;

@@ -2,7 +2,6 @@ import "./Sidebar.css";
 import Affiliate from "../Affiliate/Affiliate";
 import Picks from "../Picks/Picks";
 import affiliateImage from "./../../images/keto_diet_affiliate.jpg";
-import { Link } from "react-router-dom";
 
 function Sidebar() {
   return (
