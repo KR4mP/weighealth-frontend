@@ -1,0 +1,9 @@
+.singlePost {
+  display: flex;
+}
+
+.singlePostWrapper {
+  flex: 9;
+  display: flex;
+  padding: 0 20px;
+}

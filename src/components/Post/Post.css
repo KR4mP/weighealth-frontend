@@ -1,0 +1,48 @@
+.post {
+  width: 320px;
+  margin: 15px 25px 40px 25px;
+}
+
+.postImg {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.postInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postTitle {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 15px 0 10px 0;
+  cursor: pointer;
+  font-family: "BIZ UDPMincho", serif;
+}
+
+.postDesc {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  color: #444;
+  line-height: 20px;
+  font-family: "Roboto Mono", monospace;
+}
+
+@media (max-width: 990px) {
+  .post {
+    width: 70vw;
+    margin: 15px 0 40px 0;
+  }
+  .postImg {
+    height: 270px;
+  }
+}

@@ -1,0 +1,41 @@
+.affiliate {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.affiliateForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.affiliateForm input {
+  width: 90%;
+  height: 40px;
+  border: 1px solid #ebeffd;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.affiliateForm button {
+  width: 90%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5271de;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.affiliateForm button:hover {
+  background-color: #4c5cdb;
+}

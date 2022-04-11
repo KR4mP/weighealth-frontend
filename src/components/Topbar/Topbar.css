@@ -1,0 +1,139 @@
+.topbar {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #e5e5e5;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.topbar__logoSect {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.topbar__logo {
+  width: 200px;
+  cursor: pointer;
+}
+
+.topbar__menu {
+  flex: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topbar__menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topbar__listItem {
+  margin-left: 15px;
+  padding: 0 10px;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 200;
+}
+
+.topbar__listItem:hover {
+  border-bottom: 2px solid #5271de;
+}
+
+.topbar__socials {
+  flex: 1;
+  display: flex;
+  font-size: 50px;
+  align-items: center;
+  color: tomato;
+}
+
+.topbar__hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 40px;
+  color: #5271de;
+  margin-right: 2%;
+  align-self: center;
+}
+
+.topbar__sideNav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  border-left: 1px solid #e5e5e5;
+  z-index: 2;
+  display: hidden;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.topbar__sideNav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topbar__sideNavItem {
+  padding: 0 10px;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 200;
+  color: #000;
+}
+
+.topbar__sideNavItem:first-child {
+  margin-top: 50px;
+}
+
+.topbar__sideNavItem:hover {
+  color: #5271de !important;
+}
+
+.closeSideNav {
+  float: right;
+  margin: 25px 25px 0 0;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 990px) {
+  .topbar__menu {
+    display: none;
+  }
+
+  .topbar__socials {
+    display: none;
+  }
+
+  .topbar__logoSect {
+    justify-content: flex-start;
+    margin-left: 5%;
+  }
+
+  .topbar__hamburger {
+    display: block;
+  }
+}

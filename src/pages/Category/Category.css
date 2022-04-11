@@ -1,0 +1,8 @@
+.category {
+  display: flex;
+}
+
+.categoryWrapper {
+  display: flex;
+  flex: 9;
+}
