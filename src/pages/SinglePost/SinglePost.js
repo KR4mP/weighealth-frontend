@@ -8,7 +8,6 @@ function SinglePost() {
       <div className="singlePostWrapper">
         <Single />
       </div>
-
       <Sidebar />
     </div>
   );

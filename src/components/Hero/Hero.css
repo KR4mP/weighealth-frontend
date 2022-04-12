@@ -25,3 +25,12 @@
   font-size: 1.7rem;
   font-weight: 600;
 }
+
+@media (max-width: 990px) {
+  .heroTitle {
+    font-size: 3rem;
+  }
+  .heroSubtitle {
+    font-size: 1.5rem;
+  }
+}
